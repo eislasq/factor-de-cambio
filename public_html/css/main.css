@@ -1,5 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800);
-@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,200,700);
+@import url(//fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800);
+@import url(//fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,200,700);
 
 
 /*************************
@@ -111,7 +111,7 @@ h2 {
 
 .navbar-brand img {
     position: absolute;
-    top: -35px;
+    /*top: -35px;*/
 }
 
 .navbar-right {
@@ -499,6 +499,7 @@ h2 {
 .guitar2 {
     top: 0;
     width: 50%;
+    padding-left: 10px;
 }
 
 .guitar2 img {
@@ -786,3 +787,10 @@ h2 {
 }
 
 
+.crecimiento .thumbnail{
+    width: 50px;
+    display: inline-block;
+}
+.crecimiento a{
+    color: white;
+}
