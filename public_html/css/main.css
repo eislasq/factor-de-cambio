@@ -493,7 +493,7 @@ h2 {
     background-color: #75B46E;  
     position: relative;  
     width: 100%;
-    display: flex;
+    /*display: flex;*/
 }
 
 .guitar2 {
@@ -793,4 +793,11 @@ h2 {
 }
 .crecimiento a{
     color: white;
+}
+.text-section{
+    padding: 70px 25px 110px;
+}
+
+.row{
+    margin: 0px;
 }

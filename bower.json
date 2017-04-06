@@ -1,13 +1,26 @@
 {
-    "name": "Factor_De_Cambio",
-    "version": "1.0.0",
-    "main": "path/to/main.css",
-    "ignore": [
-        ".jshintrc",
-        "**/*.txt"
-    ],
-    "dependencies": {
-    },
-    "devDependencies": {
-    }
+  "name": "Factor_De_Cambio",
+  "version": "1.0.0",
+  "main": "public_html/css/main.css",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public_html/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  },
+  "devDependencies": {},
+  "authors": [
+    "Eliut Islas <eislasq@gmail.com>"
+  ],
+  "description": "",
+  "license": "NA",
+  "homepage": "public_html/index.html",
+  "private": true
 }
